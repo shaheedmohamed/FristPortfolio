@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <span class="loader-text">Loading</span>
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="#hero">Portfolio</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+        <h2>Full Stack Developer</h2>
+        <p>Creating elegant solutions through clean code.</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary-btn">View My Work</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+    <img src="https://s3.eu-west-1.amazonaws.com/redsys-prod/articles/eac8c6d69d1ce8ce0ff8824d/images/teaserImage_xxxx_croppedTeaserImage.jpg" class="hero-bg-element"></img>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-container">
+            <img src="./img/Shaheed.png" alt="Developer Profile">
+          </div>
+        </div>
+        <div class="about-text">
+          <p>Hello! I'm a passionate developer with a focus on creating beautiful, functional web applications. With a background in computer science and a love for elegant code, I strive to build digital experiences that combine both form and function.</p>
+          <p>I enjoy tackling complex problems and transforming ideas into reality through clean, maintainable code. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or expanding my knowledge through continuous learning.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Location: Your City, Country</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Degree: Computer Science</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-briefcase"></i>
+              <span>Experience: X years</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/600x340" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <h3>Project One</h3>
+            <p class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </p>
+            <p class="project-description">A responsive web application with modern UI components and optimized performance.</p>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/600x340" alt="Project 2">
+          </div>
+          <div class="project-content">
+            <h3>Project Two</h3>
+            <p class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </p>
+            <p class="project-description">A full-stack application with user authentication, data visualization, and real-time updates.</p>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/600x340" alt="Project 3">
+          </div>
+          <div class="project-content">
+            <h3>Project Three</h3>
+            <p class="project-tags">
+              <span>Vue.js</span>
+              <span>Firebase</span>
+              <span>Tailwind</span>
+            </p>
+            <p class="project-description">A progressive web app featuring offline capabilities and seamless user experience.</p>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-content">
+        <div class="skills-group">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h4>HTML5</h4>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <h4>CSS3</h4>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <h4>JavaScript</h4>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <h4>React</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <h4>Node.js</h4>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4>MongoDB</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <h4>Git</h4>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-terminal"></i>
+              </div>
+              <h4>Command Line</h4>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-npm"></i>
+              </div>
+              <h4>npm</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's work together</h3>
+          <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>your.email@example.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+1 234 567 890</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Your City, Country</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> Your Name | Portfolio</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
